@@ -1,0 +1,31 @@
+html{
+background-color: rgba(255, 153, 7, .75);
+font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #daf7a6;
+}
+section.title{
+border-bottom: 3px solid blue;
+}
+section.post{
+    margin-left:30%;
+    width: 50%;
+    border: 3px solid blue;
+    background-color: grey;
+}
+section.comments{
+    border-top: 3px solid blue;
+}
+
+header{
+    background-color: #ff5733;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+}
+
+img {
+    align-self: center;
+}
+section, h3{
+font-size: 100%;
+}
