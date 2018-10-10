@@ -1,0 +1,47 @@
+body {
+    background-color: #00AEFC;
+    color: white;
+}
+p{
+    font-style: italic;
+    font-size: 120%;
+    color: black;
+}
+
+header {
+    text-transform: uppercase;
+}
+h1{
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+h2 {
+   color: black;
+   font-weight: normal;
+}
+
+
+fieldset {
+    background-color: #858585;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img#logo {
+    width: 5%;
+    float: left;
+}
+img#profilephoto{
+    height: auto;
+    width: 50%;
+}
+section.post{
+    border: black 1pt solid;
+    padding: 1%;
+}
