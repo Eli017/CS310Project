@@ -1,0 +1,55 @@
+body {
+    background-color: #00AEFC;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+h3 {
+    float: left;
+    margin-top: 1.5%;
+}
+
+form {
+    padding-left: 30%;
+    padding-top: 1.5%;
+}
+
+h4 {
+    padding-top: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header form a {
+    padding-left: 20%;
+}
+
+.post {
+    width: 50%;
+    margin: auto;
+    background-color: #858585;
+}
+
+.profilePicture {
+    width: 5%;
+    height: auto;
+    float: left;
+    margin: 1%;
+}
+
+.userLoginRegister {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    height: auto;
+}
+
+#logo {
+    width: 5%;
+    float: left;
+}

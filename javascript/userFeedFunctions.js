@@ -2,7 +2,7 @@ function outputPost(userImage, userName, title, text) {
         document.write("<article class='post'>");
             document.write("<img src='../images/"+userImage+"' alt='Profile Picture' title='Profile Picture' class='profilePicture'>");
             document.write("<h4>"+userName+"</h4>");
-            document.write("<h5 class='title'>"+title+"</h5>");
+            document.write("<p class='title'>"+title+"</p>");
             document.write("<hr/>");
             document.write("<p>"+text+"</p>");
         document.write("</article>");
