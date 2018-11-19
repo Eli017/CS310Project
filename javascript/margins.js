@@ -6,20 +6,14 @@ function outputHeader() {
     document.write('<label>Search: </label>');
     document.write('<input type="text" title="Search" placeholder="Input Keywords for Search"/>');
     document.write('<input type="submit" title="SubmitSearch" value="Search"/>');
-    // welcomeUser("user"); //Will change based on user
     document.write('</form>');
-    document.write('<form action="../html/login.html" class="userLoginRegister">');
-    document.write('<input type="submit" value="Login" title="Login"/>');
-    document.write('</form>');
-    document.write('<form action="../html/register.html" class="userLoginRegister">');
-    document.write('<input type="submit" value="Register" title="Register"/>');
-    document.write('</form>');
+    document.write('<a href="../html/login.html">Login</a>');
+    document.write('<a href="../html/register.html">Register</a>');
     document.write('</header>');
 }
 
 function outputFooter() {
     document.write("<footer>");
-    document.write("<p>&copy Bolles, Runnebohm, Sokeland, and Stull</p>");
-    document.write("<p>Built for CS310 Project</p>");
+    document.write("<p>&copy Bolles, Runnebohm, Sokeland, and Stull; Built for CS310 Project</p>");
     document.write("</footer>");
 }
