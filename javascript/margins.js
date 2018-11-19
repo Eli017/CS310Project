@@ -1,6 +1,6 @@
 function outputHeader() {
     document.write('<header>');
-    document.write('<a href="../html/userFeed.html"><img src="../images/Logo1.png" title="Agora Logo" alt="Agora Logo" id="logo"/></a>');
+    document.write('<a href="../html/userFeed.html"><img src="../assets/Logo1.png" title="Agora Logo" alt="Agora Logo" id="logo"/></a>');
     document.write('<a href="../html/userFeed.html">Agora</a>');
     document.write('<form>');
     document.write('<label>Search: </label>');
