@@ -4,8 +4,8 @@ function generatepostlist(number,namelist,postlist){
     }
 }
 
-function welcomeUser() {
-    document.write("<a href='../html/Profile.html'>Welcome Random Guy!</a>");
+function welcomeUser(user) {
+    document.write("<a href='../html/Profile.html'>"+user+"</a>");
 }
 
 let namelist= ["Henry ford","H.G Wells","Frank Sinatra","Marc Antony","Billy Gelespie","Marco Rubio"];
