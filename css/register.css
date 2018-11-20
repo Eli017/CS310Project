@@ -1,15 +1,28 @@
-header {
-    text-transform: uppercase;
+body {
+    margin: 0;
+    background-color: #6699CC;
 }
 
-h1, p {
+header {
+    text-transform: uppercase;
+    background-color: #ff5733;
+    padding-bottom: 2%;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 1.5%;
+}
+
+h1, h4 {
     text-align: center;
     width: 30%;
     margin: auto;
+    color: black;
 }
 
 fieldset {
-    background-color: #6699CC;
+    background-color: #ff5733;
     text-align: center;
     margin: auto;
     width: 30%;

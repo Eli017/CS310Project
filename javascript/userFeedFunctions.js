@@ -1,8 +1,8 @@
 function outputPost(userImage, userName, title, text) {
         document.write("<article class='post'>");
             document.write("<img src='../assets/"+userImage+"' alt='Profile Picture' title='Profile Picture' class='profilePicture'>");
-            document.write("<h4><a href='../pages/profile.php?id' "+userName+"</h4>");
-            document.write("<p class='title'>"+title+"</p>");
+            document.write("<h4><a href='../pages/profile.php'>"+userName+"</a></h4>");
+            document.write("<p class='title'><a href='../pages/page.html'>"+title+"</a></p>");
             document.write("<hr/>");
             document.write("<p>"+text+"</p>");
         document.write("</article>");

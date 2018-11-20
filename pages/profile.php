@@ -1,4 +1,4 @@
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Profile</title>
@@ -13,7 +13,7 @@
         <br>
         <table>
             <tr>
-            <td><img src="../assets/user-face.jpg" alt="profile photo" id= "profilephoto"></td>
+            <td><img src="../assets/user-face.jpg" alt="profile photo" id= "profilePhoto"></td>
             <td><script>
             document.write("<h1>"+userdata[0]+"</h1><h2> User For: "+userdata[1]+"<br>"+userdata[2]+postlist.length+"</h2>")
             </script>

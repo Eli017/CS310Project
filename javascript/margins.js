@@ -7,8 +7,8 @@ function outputHeader() {
     document.write('<input type="text" title="Search" placeholder="Input Keywords for Search" id="searchBar"/>');
     document.write('<input type="submit" title="SubmitSearch" value="Search" onClick="search()" />');
     document.write('</form>');
-    document.write('<a href="../pages/login.html">Login</a>');
-    document.write('<a href="../pages/register.html">Register</a>');
+    document.write('<a href="../pages/login.html" class="userLoginRegister">Login</a>');
+    document.write('<a href="../pages/register.html" class="userLoginRegister">Register</a>');
     document.write('</header>');
 }
 
@@ -17,12 +17,11 @@ function outputFooter() {
     document.write("<p>&copy Bolles, Runnebohm, Sokeland, and Stull; Built for CS310 Project</p>");
     document.write("</footer>");
 }
-var searchTerm ="tacos";
+
+let searchTerm ="tacos";
 
 function search(){
-    var term = document.getElementById("searchBar").value;
+    let term = document.getElementById("searchBar").value;
     searchTerm=term;
     window.open("../pages/searchResults.html")
-
-
 }

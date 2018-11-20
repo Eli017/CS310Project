@@ -1,5 +1,12 @@
+body {
+    margin: 0;
+    background-color: #336699;
+}
+
 header {
     text-transform: uppercase;
+    background-color: #ff5733;
+    padding-bottom: 2%;
 }
 
 h3 {
@@ -10,6 +17,7 @@ h3 {
 form {
     padding-left: 30%;
     padding-top: 1.5%;
+    display: inline-block;
 }
 
 h4 {
@@ -17,18 +25,23 @@ h4 {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 header form a {
     padding-left: 20%;
+    color: white;
+}
+
+footer a {
+    color: black;
 }
 
 .post {
     width: 50%;
     margin: auto;
-    background-color: #858585;
+    background-color: lightgrey;
 }
 
 .profilePicture {
@@ -39,10 +52,10 @@ header form a {
 }
 
 .userLoginRegister {
-    display: block;
-    margin-left: 50%;
-    margin-right: 50%;
-    height: auto;
+    display: inline;
+    margin-left: 5%;
+    padding: 0.5%;
+    background-color: darkgray;
 }
 
 #logo {
