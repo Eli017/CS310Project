@@ -4,8 +4,8 @@ function outputHeader() {
     document.write('<a href="../pages/userFeed.html">Agora</a>');
     document.write('<form>');
     document.write('<label>Search: </label>');
-    document.write('<input type="text" title="Search" placeholder="Input Keywords for Search"/>');
-    document.write('<input type="submit" title="SubmitSearch" value="Search"/>');
+    document.write('<input type="text" title="Search" placeholder="Input Keywords for Search" id="searchBar"/>');
+    document.write('<input type="submit" title="SubmitSearch" value="Search" onClick="search()" />');
     document.write('</form>');
     document.write('<a href="../pages/login.html">Login</a>');
     document.write('<a href="../pages/register.html">Register</a>');
@@ -16,4 +16,13 @@ function outputFooter() {
     document.write("<footer>");
     document.write("<p>&copy Bolles, Runnebohm, Sokeland, and Stull; Built for CS310 Project</p>");
     document.write("</footer>");
+}
+var searchTerm ="tacos";
+
+function search(){
+    var term = document.getElementById("searchBar").value;
+    searchTerm=term;
+    window.open("../pages/searchResults.html")
+
+
 }
