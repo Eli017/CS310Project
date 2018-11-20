@@ -10,7 +10,7 @@ include "../php/userData.php";
             $user = $users[$id];
             echo "<title>" . $user['name'] . "</title>";
         ?>
-        <link rel="stylesheet" type="text/css" href="../css/userFeed.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/profile.css"/>
         <script src="../javascript/margins.js"></script>
         <script src="../javascript/userPost.js"></script>
     </head>
@@ -36,7 +36,7 @@ include "../php/userData.php";
                 </td>
             </tr>
             <script>
-                generatepostlist(6,namelist,postlist);
+                generatePostList(6,nameList,postList);
             </script>
         </table>
         <script type="application/javascript">
