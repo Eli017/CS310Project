@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #336699;
 }
 
 header {
@@ -17,18 +18,18 @@ h1 {
     text-align: center;
     width: 30%;
     margin: auto;
-    color: orange;
+    color: black;
 }
 
 fieldset {
-    background-color: #336699;
+    background-color: #ff5733;
     text-align: center;
     margin: auto;
     width: 30%;
 }
 
 a {
-    color: orange;
+    color: white;
 }
 
 img {

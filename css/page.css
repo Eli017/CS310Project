@@ -60,3 +60,7 @@ header form a {
     width: 5%;
     float: left;
 }
+
+#welcome {
+    margin-left: 1%;
+}

@@ -9,6 +9,7 @@ function outputHeader() {
     document.write('</form>');
     document.write('<a href="../pages/login.html" class="userLoginRegister">Login</a>');
     document.write('<a href="../pages/register.html" class="userLoginRegister">Register</a>');
+    welcomeUser();
     document.write('</header>');
 }
 
