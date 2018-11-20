@@ -9,7 +9,7 @@ function Post(userImage, userName, userId, title, text) {
 let post1 = new Post(
     "profileFiller.jpg",
     "John Doe",
-    "1",
+    "0",
     "Post Title 1",
     "This is an example of a post without any media and only text."
 );
@@ -17,7 +17,7 @@ let post1 = new Post(
 let post2 = new Post(
     "profileFiller.jpg",
     "Jane Smith",
-    "2",
+    "1",
     "Post Title 2",
     "This is an example of another post."
 );
@@ -25,7 +25,7 @@ let post2 = new Post(
 let post3 = new Post(
     "profileFiller.jpg",
     "Peter Parker",
-    "3",
+    "2",
     "Post 3",
     "Post",
 );

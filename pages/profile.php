@@ -1,7 +1,15 @@
+<?php
+include "../php/userData.php";
+?>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Profile</title>
+        <?php
+            $id = $_GET['id'];
+            $user = $users[$id];
+            echo "<title>" . $user['name'] . "</title>";
+        ?>
         <link rel="stylesheet" type="text/css" href="../css/userFeed.css"/>
         <script src="../javascript/margins.js"></script>
         <script src="../javascript/userPost.js"></script>
@@ -13,14 +21,22 @@
         <br>
         <table>
             <tr>
-            <td><img src="../assets/user-face.jpg" alt="profile photo" id= "profilePhoto"></td>
-            <td><script>
-            document.write("<h1>"+userdata[0]+"</h1><h2> User For: "+userdata[1]+"<br>"+userdata[2]+postlist.length+"</h2>")
-            </script>
-            </td>
+                <td>
+                    <?php
+                        echo "<img src='../assets/" . $user['profilePhoto'] . "' alt='profile photo' id='profilePhoto'>";
+                    ?>
+                </td>
+                <td>
+                    <?php
+                        echo "<h1>" . $user['name'] . "</h1>";
+                        echo "<h2>User Since: " . $user['originDate'];
+                        echo "<br/>";
+                        echo "Agora Score: " . $user['score'] . "</h2>";
+                    ?>
+                </td>
             </tr>
             <script>
-            generatepostlist(6,namelist,postlist);
+                generatepostlist(6,namelist,postlist);
             </script>
         </table>
         <script type="application/javascript">
