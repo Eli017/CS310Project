@@ -1,6 +1,7 @@
-function Post(userImage, userName, title, text) {
+function Post(userImage, userName, userId, title, text) {
     this.userImage = userImage;
     this.userName = userName;
+    this.userId = userId;
     this.title = title;
     this.text = text;
 }
@@ -8,6 +9,7 @@ function Post(userImage, userName, title, text) {
 let post1 = new Post(
     "profileFiller.jpg",
     "John Doe",
+    "1",
     "Post Title 1",
     "This is an example of a post without any media and only text."
 );
@@ -15,6 +17,7 @@ let post1 = new Post(
 let post2 = new Post(
     "profileFiller.jpg",
     "Jane Smith",
+    "2",
     "Post Title 2",
     "This is an example of another post."
 );
@@ -22,6 +25,7 @@ let post2 = new Post(
 let post3 = new Post(
     "profileFiller.jpg",
     "Peter Parker",
+    "3",
     "Post 3",
     "Post",
 );
