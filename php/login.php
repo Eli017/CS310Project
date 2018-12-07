@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+echo'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,16 +13,8 @@
     </header>
     <h1>Welcome to Agora!</h1>
     <form method="post" action="userFeed.html">
+        
         <fieldset>
-            <?php
-            $connString = "mysql:host=localhost;dbname=book";
-            $user = "cs310";
-            $pass = "cs310";
-
-            $pdo = new PDO($connString,$user,$pass);
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            
-            
             <label>Username/Email:</label><br>
             <input type="text" name="Username"/><br>
             <label>Password:</label><br>
@@ -36,4 +29,5 @@
         outputFooter();
     </script>
 </body>
-</html>
+</html>'
+?>
