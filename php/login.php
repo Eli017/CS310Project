@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+echo'<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,31 +7,20 @@
     <link rel="stylesheet" type="text/css" href="../css/login.css"/>
 </head>
 <body>
-<?php
-
-?>
     <header>
         <img src="../assets/Logo1.png" title="Agora Logo" alt="Agora Logo"/>
         <h3>Agora</h3>
     </header>
     <h1>Welcome to Agora!</h1>
     <form method="post" action="userFeed.html">
+        
         <fieldset>
-            <?php
-            $connString = "mysql:host=localhost;dbname=book";
-            $user = "cs310";
-            $pass = "cs310";
-
-            $pdo = new PDO($connString,$user,$pass);
-            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            
-            
             <label>Username/Email:</label><br>
             <input type="text" name="Username"/><br>
             <label>Password:</label><br>
             <input type="password" name="password"/><br>
             <p>
-                New User? Register <a href="/php/register.php">Here</a>
+                New User? Register <a href="register.html">Here</a>
             </p>
             <input type="submit" name="submit"/>
         </fieldset>
@@ -39,4 +29,5 @@
         outputFooter();
     </script>
 </body>
-</html>
+</html>'
+?>
