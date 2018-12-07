@@ -12,7 +12,7 @@ echo'<!DOCTYPE html>
         <h3>Agora</h3>
     </header>
     <h1>Welcome to Agora!</h1>
-    <form method="post" action="userFeed.html">
+    <form method="post" action="userFeed.php">
         
         <fieldset>
             <label>Username/Email:</label><br>
@@ -20,7 +20,7 @@ echo'<!DOCTYPE html>
             <label>Password:</label><br>
             <input type="password" name="password"/><br>
             <p>
-                New User? Register <a href="register.html">Here</a>
+                New User? Register <a href="register.php">Here</a>
             </p>
             <input type="submit" name="submit"/>
         </fieldset>
