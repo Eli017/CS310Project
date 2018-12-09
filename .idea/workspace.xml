@@ -10,13 +10,45 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file:///Applications/MAMP/htdocs/Project 9-1/project9-1.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/database.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state>
+              <caret column="72" selection-start-column="72" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -33,6 +65,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Austin Bolles &lt;asbolles@bsu.edu&gt;" />
         <option value="Eli Sokeland &lt;etsokeland@bsu.edu&gt;" />
       </list>
     </option>
@@ -54,7 +87,8 @@
         <option value="$PROJECT_DIR$/css/page.css" />
         <option value="$PROJECT_DIR$/css/profile.css" />
         <option value="$PROJECT_DIR$/javascript/userFeedData.js" />
-        <option value="/Applications/MAMP/htdocs/Project 9-1/project9-1.php" />
+        <option value="$PROJECT_DIR$/../Project 9-1/project9-1.php" />
+        <option value="$PROJECT_DIR$/sql/database.sql" />
       </list>
     </option>
   </component>
@@ -62,7 +96,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -79,6 +113,11 @@
             <path>
               <item name="CS310Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS310Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS310Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS310Project" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS310Project" type="b2602c69:ProjectViewProjectNode" />
@@ -149,7 +188,7 @@
       <workItem from="1542680188616" duration="2724000" />
       <workItem from="1542692179872" duration="11578000" />
       <workItem from="1544142142967" duration="1093000" />
-      <workItem from="1544394297615" duration="733000" />
+      <workItem from="1544394297615" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed styling on login, register, profile, and userfeed.">
       <created>1542698949021</created>
@@ -193,15 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542706078844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Inserted SQL file for other devices to create database">
+      <created>1544396723933</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544396723934</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17869000" />
+    <option name="totallyTimeSpent" value="18922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -255,7 +300,8 @@
     <MESSAGE value="Modified userFeed to include profile link to specific php id links" />
     <MESSAGE value="Changed profile page info to be dynamic to the user" />
     <MESSAGE value="Updated styling of page and refactored JavaScript files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated styling of page and refactored JavaScript files." />
+    <MESSAGE value="Inserted SQL file for other devices to create database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserted SQL file for other devices to create database" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/user3-face.jpg">
@@ -346,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/userFeed.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -367,17 +406,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Project 9-1/project9-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
+        <state relative-caret-position="457">
           <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/MAMP/htdocs/Project 9-1/project9-1.php">
+    <entry file="file://$PROJECT_DIR$/pages/searchResults.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
         </state>
       </provider>
     </entry>
