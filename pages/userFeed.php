@@ -1,3 +1,12 @@
+<?php
+$connString = "mysql:host=localhost;dbname=Agora";
+$user = "cs310";
+$pass = "cs310";
+
+$pdo = new PDO($connString,$user,$pass);
+$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +22,13 @@
 <script type="application/javascript">
     outputHeader();
 </script>
+<?php
+$sql = "SELECT FirstName, LastName, EmployeeID from Employees ORDER BY LastName";
+$result = $pdo->query($sql);
+While ($row = $result->fetch()) {
+    $firstName = $row['FirstName'];
+}
+?>
 <script type="application/javascript">
     displayAllPosts();
 </script>
