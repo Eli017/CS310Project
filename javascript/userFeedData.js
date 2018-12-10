@@ -10,7 +10,6 @@ let post1 = new Post(
     "user-face.jpg",
     "John Doe",
     "0",
-    "Post Title 1",
     "This is an example of a post without any media and only text."
 );
 
@@ -18,7 +17,6 @@ let post2 = new Post(
     "user2-face.jpg",
     "Jane Smith",
     "1",
-    "Post Title 2",
     "This is an example of another post."
 );
 
@@ -26,7 +24,6 @@ let post3 = new Post(
     "user3-face.jpg",
     "Peter Parker",
     "2",
-    "Post 3",
     "Post",
 );
 
@@ -34,7 +31,6 @@ let post4 = new Post(
     "me.jpg",
     "Austin Bolles",
     "3",
-    "This website is going to be great",
     "This website is currently under construction and it will be better than ever",
 );
 

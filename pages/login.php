@@ -15,8 +15,8 @@ echo'<!DOCTYPE html>
     <form method="post" action="userFeed.php">
         
         <fieldset>
-            <label>Username/Email:</label><br>
-            <input type="text" name="Username"/><br>
+            <label>Email:</label><br>
+            <input for="email" type="text" name="email" value=""/><br>
             <label>Password:</label><br>
             <input type="password" name="password"/><br>
             <p>
