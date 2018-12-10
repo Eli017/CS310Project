@@ -14,7 +14,7 @@ echo '<!DOCTYPE html>
     <h1>Create an account</h1>
     <h4>It\'s free!</h4>
     <fieldset>
-        <form method="post" action="userFeed.html">
+        <form method="post" action="userFeed.php">
             <label>First Name:</label><br/>
             <input type="text" title="First Name"/><br/>
             <label>Last Name:</label><br/>

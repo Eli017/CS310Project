@@ -31,7 +31,7 @@ let post3 = new Post(
 );
 
 let post4 = new Post(
-    "me.jpg ",
+    "me.jpg",
     "Austin Bolles",
     "3",
     "This website is going to be great",
