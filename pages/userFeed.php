@@ -39,9 +39,6 @@ While ($row = $result->fetch()) {
 }
 ?>
 <script type="application/javascript">
-    displayAllPosts();
-</script>
-<script type="application/javascript">
     outputFooter();
 </script>
 </body>
