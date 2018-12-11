@@ -5,7 +5,7 @@ function generatePostList(number, nameList, postList){
 }
 
 function welcomeUser(name) {
-    document.write("<a href='../pages/profile.php?id=0' id='welcome'>Welcome,"+name+"</a>");
+    document.write("<a href='../pages/profile.php?id=4' id='welcome'>Welcome,"+name+"</a>");
 }
 
 let nameList= ["Henry ford","H.G Wells","Frank Sinatra","Marc Antony","Billy Gelespie","Marco Rubio"];
