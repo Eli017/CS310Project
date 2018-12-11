@@ -13,7 +13,7 @@ try {
     $sql = "INSERT INTO LoginInfo (FirstName, LastName, Username, Password)
         VALUES ('$_POST[fname]', '$_POST[lname]', '$_POST[uname]', '$_POST[password]')";
     $pdo->exec($sql);
-    header("Location: ../pages/login.php");
+    header("Location: ../pages/login.html");
 } catch (PDOException $e) {
     echo $sql . "<br/>" . $e->getMessage();
 }
