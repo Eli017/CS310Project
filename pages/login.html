@@ -14,16 +14,16 @@
         <h3>Agora</h3>
     </header>
     <h1>Welcome to Agora!</h1>
-    <form method="post" action="userFeed.php">
+    <form method="get" action="../pages/userFeed.php">
         <fieldset>
-            <label>Username/Email:</label><br>
-            <input type="text" name="Username"/><br>
+            <label>Username:</label><br>
+            <input type="text" name="username"/><br>
             <label>Password:</label><br>
             <input type="password" name="password"/><br>
             <p>
                 New User? Register <a href="/php/register.php">Here</a>
             </p>
-            <input type="submit" name="submit"/>
+            <input type="submit"/>
         </fieldset>
     </form>
     <script type="application/javascript">

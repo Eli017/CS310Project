@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Dec 11, 2018 at 02:44 AM
+-- Generation Time: Dec 11, 2018 at 08:02 AM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.8
 
@@ -39,7 +39,8 @@ INSERT INTO `LoginInfo` (`Username`, `Password`, `FirstName`, `LastName`, `userI
 ('asbolles', '1234', 'Austin', 'Bolles', 1, 'me.jpg'),
 ('jonDoe', '1234', 'Jon', 'Doe', 2, 'user-face.jpg'),
 ('Skyrim4sql', '1234', 'Todd', 'Howard', 3, 'user2-face.jpg'),
-('CS310', '1234', 'brad', 'shutters', 4, 'profileFiller.jpg');
+('CS310', '1234', 'brad', 'shutters', 4, 'profileFiller.jpg'),
+('John', 'password', 'John', 'Smith', 9, NULL);
 
 -- --------------------------------------------------------
 
@@ -117,7 +118,7 @@ ALTER TABLE `Posts`
 -- AUTO_INCREMENT for table `LoginInfo`
 --
 ALTER TABLE `LoginInfo`
-  MODIFY `userID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `userID` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `Posts`

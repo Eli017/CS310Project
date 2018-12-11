@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afd2027e-5120-4e1f-b92d-38f62054b6f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/createUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/margins.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/margins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/userPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/userPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/searchResults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/userFeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/userFeed.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +34,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/php/register.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/userFeed.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <state relative-caret-position="510">
+                  <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -53,10 +47,10 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/php/createUser.php">
+            <entry file="file://$PROJECT_DIR$/javascript/margins.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
                 </state>
               </provider>
             </entry>
@@ -95,13 +89,16 @@
         <option value="$PROJECT_DIR$/javascript/userFeedData.js" />
         <option value="$PROJECT_DIR$/pages/userFeed.html" />
         <option value="$PROJECT_DIR$/pages/profile.php" />
-        <option value="$PROJECT_DIR$/pages/userFeed.php" />
         <option value="$PROJECT_DIR$/javascript/userFeedFunctions.js" />
-        <option value="$PROJECT_DIR$/javascript/userPost.js" />
         <option value="$PROJECT_DIR$/php/userData.php" />
         <option value="$PROJECT_DIR$/sql/database.sql" />
-        <option value="$PROJECT_DIR$/php/createUser.php" />
         <option value="$PROJECT_DIR$/php/register.php" />
+        <option value="$PROJECT_DIR$/php/createUser.php" />
+        <option value="$PROJECT_DIR$/php/loginUser.php" />
+        <option value="$PROJECT_DIR$/pages/login.html" />
+        <option value="$PROJECT_DIR$/javascript/userPost.js" />
+        <option value="$PROJECT_DIR$/javascript/margins.js" />
+        <option value="$PROJECT_DIR$/pages/userFeed.php" />
       </list>
     </option>
   </component>
@@ -111,7 +108,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1516" />
+    <option name="width" value="1374" />
     <option name="height" value="998" />
   </component>
   <component name="ProjectView">
@@ -202,7 +199,7 @@
       <workItem from="1544425598724" duration="97000" />
       <workItem from="1544493249040" duration="773000" />
       <workItem from="1544494943194" duration="1386000" />
-      <workItem from="1544497757909" duration="4922000" />
+      <workItem from="1544497757909" duration="11750000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed styling on login, register, profile, and userfeed.">
       <created>1542698949021</created>
@@ -309,21 +306,35 @@
       <option name="project" value="LOCAL" />
       <updated>1544497987823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Register user is functional">
+      <created>1544505796649</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544505796649</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Replaced login.php with login.html">
+      <created>1544505965959</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544505965959</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36330000" />
+    <option name="totallyTimeSpent" value="43158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="998" extended-state="0" />
+    <frame x="0" y="23" width="1374" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2197092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2042042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871288" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -380,7 +391,9 @@
     <MESSAGE value="Updated Database and userFeed to use SQL" />
     <MESSAGE value="Updated Database and deleted userFeed function. Uses SQL to output userFeed." />
     <MESSAGE value="Updated Database and userData to correlate together." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Database and userData to correlate together." />
+    <MESSAGE value="Register user is functional" />
+    <MESSAGE value="Replaced login.php with login.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced login.php with login.html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/userFeed.css">
@@ -399,13 +412,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/pages/register.html" />
-    <entry file="file://$PROJECT_DIR$/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -460,13 +466,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/userFeedFunctions.js" />
-    <entry file="file://$PROJECT_DIR$/pages/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -476,20 +475,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/userFunctions.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/margins.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/userPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/userFeedData.js" />
     <entry file="file://$PROJECT_DIR$/assets/user2-face.jpg">
@@ -513,24 +498,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/userFeed.php">
+    <entry file="file://$PROJECT_DIR$/pages/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/loginUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17174" column="12" selection-start-line="17174" selection-start-column="12" selection-end-line="17174" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/createUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/userPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="480">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/margins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/userFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>

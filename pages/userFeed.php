@@ -19,9 +19,21 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     <script src="../javascript/userPost.js"></script>
 </head>
 <body>
-<script type="application/javascript">
-    outputHeader();
-</script>
+<?php
+    if (isset($_GET['username']) && isset($_GET['password'])) {
+        $currentUser = $_GET['username'];
+        echo "<script type=\"application/javascript\">
+              outputHeader('" . $currentUser . "');
+              </script>";
+    } else {
+        echo "<header>";
+        echo "<a href=\"../pages/userFeed.php\"><img src=\"../assets/Logo1.png\" title=\"Agora Logo\" alt=\"Agora Logo\" id=\"logo\"/></a>";
+        echo "<a href=\"../pages/userFeed.php\">Agora</a>";
+        echo "<a href=\"../pages/login.html\" class=\"userLoginRegister\">Login</a>";
+        echo "<a href=\"../php/register.php\" class=\"userLoginRegister\">Register</a>";
+        echo "</header>";
+    }
+?>
 <?php
 $usernameSql = "SELECT Posts.userID, LoginInfo.Username, LoginInfo.photoURL, Posts.Text FROM Posts JOIN LoginInfo ON Posts.userID = LoginInfo.userID ORDER BY timecreated DESC";
 $result = $pdo->query($usernameSql);
