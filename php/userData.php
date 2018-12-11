@@ -25,9 +25,10 @@ $users[2] = array(
     "originDate" => "June 7, 2018",
     "score" => "3"
 );
-users[2] = array(
+$users[3] = array(
     "id" => "3",
     "name" => "Austin Bolles",
     "profilePhoto" => "Me.jpg",
     "originDate" => "May 7, 2018",
     "score" => "312"
+);

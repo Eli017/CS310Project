@@ -3,7 +3,7 @@ $connString = "mysql:host=localhost;dbname=Agora";
 $user = "cs310";
 $pass = "cs310";
 
-$pdo = new PDO($connString,$user,$pass);
+$pdo = new PDO($connString, $user, $pass);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?>
 
@@ -23,10 +23,19 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     outputHeader();
 </script>
 <?php
-$sql = "SELECT FirstName, LastName, EmployeeID from Employees ORDER BY LastName";
-$result = $pdo->query($sql);
+$usernameSql = "SELECT Posts.userID, LoginInfo.Username, LoginInfo.photoURL, Posts.Text FROM Posts JOIN LoginInfo ON Posts.userID = LoginInfo.userID ORDER BY timecreated DESC";
+$result = $pdo->query($usernameSql);
 While ($row = $result->fetch()) {
-    $firstName = $row['FirstName'];
+    $username = $row['Username'];
+    $userPhoto = $row['photoURL'];
+    $userID = $row['userID'];
+    $postText = $row['Text'];
+    echo "<article class='post'>";
+    echo "<img src='../assets/" . $userPhoto ."' alt='Profile Picture' title='Profile Picture' class='profilePicture'>";
+    echo "<h4><a href='../pages/profile.php?id=$userID'>$username</a></h4>";
+    echo "<hr/>";
+    echo "<p>$postText</p>";
+    echo "</article>";
 }
 ?>
 <script type="application/javascript">
