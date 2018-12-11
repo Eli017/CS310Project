@@ -28,7 +28,7 @@ $users[3] = array(
 $users[4] = array(
     "id" => "4",
     "name" => "Brad Shutters",
-    "profilePhoto" => "user3-face.jpg",
+    "profilePhoto" => "profileFiller.jpg",
     "originDate" => "May 7, 2018",
     "score" => "32"
 );

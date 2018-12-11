@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd2027e-5120-4e1f-b92d-38f62054b6f3" name="Default Changelist" comment="Updated Database and userFeed to use SQL">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/user2-face.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/user2-face.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/userFeedFunctions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/userPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/userPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/userFeed.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/userFeed.php" afterDir="false" />
+    <list default="true" id="afd2027e-5120-4e1f-b92d-38f62054b6f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/user3-face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/userFeedData.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php/userData.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/userData.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sql/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/database.sql" afterDir="false" />
     </list>
@@ -32,75 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/userFunctions.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/userFeed.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/user2-face.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/userFeedData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/margins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/userPost.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="80" lean-forward="true" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sql/database.sql">
+        <entry file="file://$PROJECT_DIR$/php/userData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="450">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -137,10 +70,10 @@
         <option value="$PROJECT_DIR$/javascript/userFeedData.js" />
         <option value="$PROJECT_DIR$/pages/userFeed.html" />
         <option value="$PROJECT_DIR$/pages/profile.php" />
-        <option value="$PROJECT_DIR$/php/userData.php" />
         <option value="$PROJECT_DIR$/pages/userFeed.php" />
         <option value="$PROJECT_DIR$/javascript/userFeedFunctions.js" />
         <option value="$PROJECT_DIR$/javascript/userPost.js" />
+        <option value="$PROJECT_DIR$/php/userData.php" />
         <option value="$PROJECT_DIR$/sql/database.sql" />
       </list>
     </option>
@@ -149,10 +82,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1462" />
-    <option name="height" value="998" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,7 +178,7 @@
       <workItem from="1544397863421" duration="4031000" />
       <workItem from="1544425598724" duration="97000" />
       <workItem from="1544493249040" duration="773000" />
-      <workItem from="1544494943194" duration="989000" />
+      <workItem from="1544494943194" duration="1386000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed styling on login, register, profile, and userfeed.">
       <created>1542698949021</created>
@@ -339,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544490615573</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated Database and deleted userFeed function. Uses SQL to output userFeed.">
+      <created>1544496057565</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544496057565</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31011000" />
+    <option name="totallyTimeSpent" value="31408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1462" height="998" extended-state="0" />
@@ -407,7 +346,8 @@
     <MESSAGE value="Updated SQL functionality" />
     <MESSAGE value="Fixed postID in SQL Injection file" />
     <MESSAGE value="Updated Database and userFeed to use SQL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Database and userFeed to use SQL" />
+    <MESSAGE value="Updated Database and deleted userFeed function. Uses SQL to output userFeed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Database and deleted userFeed function. Uses SQL to output userFeed." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/userFeed.css">
@@ -478,12 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/user3-face.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/user-face.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/profileFiller.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -497,9 +431,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/Logo1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/user2-face.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/userFeedFunctions.js">
@@ -530,22 +461,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/userData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/userFunctions.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/userFeedData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/margins.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -561,10 +478,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/userFeedData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user2-face.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user3-face.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/user-face.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/sql/database.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="369">
+          <caret line="108" column="30" lean-forward="true" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/userData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
